@@ -1,18 +1,18 @@
 import Link from 'next/link';
-import Subscribe from './Subscribe';
+// import Subscribe from './Subscribe';
 
 const Header = () => (
   <header className="header">
     <div className="header__left">
       <Link href="/">
         <a aria-label="Syntax.FM">
-          <img className="header__logo" src="/static/logo.jpg" alt="Syntax" />
+          <img className="header__logo" src="/static/logo.png" alt="Syntax" />
         </a>
       </Link>
     </div>
     <div className="header__right">
       <div className="title">
-        <h2 className="tagline">一个IC爱好者定投群发起的播客节目.</h2>
+        <h2 className="tagline">一个IC爱好者定投翻身群发起的播客节目.</h2>
         <a
           target="_blank"
           href="mailto:chuhemiao@gmail.com"
@@ -110,7 +110,7 @@ const Header = () => (
 
       </div>
     </div>
-    <Subscribe />
+    {/* <Subscribe /> */}
   </header>
 );
 
