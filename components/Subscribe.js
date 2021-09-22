@@ -8,16 +8,7 @@ function Subscribe() {
             href="https://itunes.apple.com/ca/podcast/syntax-tasty-web-development-treats/id1253186678?mt=2"
             rel="noopener noreferrer"
           >
-            iTunes
-          </a>
-        </li>
-        <li className="subscribe__link subscribe__link--overcast">
-          <a
-            target="_blank"
-            href="https://overcast.fm/itunes1253186678/syntax-tasty-web-development-treats"
-            rel="noopener noreferrer"
-          >
-            Overcast
+            Apple Podcast
           </a>
         </li>
         <li className="subscribe__link subscribe__link--google">
@@ -29,24 +20,6 @@ function Subscribe() {
             Google Podcast
           </a>
         </li>
-        <li className="subscribe__link subscribe__link--stitcher">
-          <a
-            target="_blank"
-            href="http://www.stitcher.com/s?fid=142440&refid=stpr"
-            rel="noopener noreferrer"
-          >
-            Stitcher
-          </a>
-        </li>
-        <li className="subscribe__link subscribe__link--pocketcasts">
-          <a
-            target="_blank"
-            href="http://pca.st/fmx9"
-            rel="noopener noreferrer"
-          >
-            PocketCasts
-          </a>
-        </li>
         <li className="subscribe__link subscribe__link--spotify">
           <a
             target="_blank"
@@ -56,15 +29,7 @@ function Subscribe() {
             Spotify
           </a>
         </li>
-        <li className="subscribe__link subscribe__link--rss">
-          <a
-            target="_blank"
-            href="http://feed.syntax.fm/rss"
-            rel="noopener noreferrer"
-          >
-            RSS
-          </a>
-        </li>
+       
       </ul>
     </div>
   );

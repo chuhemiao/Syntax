@@ -5,19 +5,19 @@ const Footer = () => (
     <p>
       Want to{' '}
       <Link href="/sponsor">
-        <a>Sponsor the Podcast?</a>
+        <a>Sponsor the ICPodcast?</a>
       </Link>
     </p>
-    <p>
+    {/* <p>
       Looking for some{' '}
       <Link href="/sickpicks">
         <a>Sick Picks?</a>
       </Link>
-    </p>
-    <p>&copy; Wes Bos && Scott Tolinski {new Date().getFullYear()}</p>
+    </p> */}
+    <p>&copy; ICPodcast {new Date().getFullYear()}</p>
     <p>
-      Website made with React, Next.js and stylus. Hosted on{' '}
-      <a href="https://vercel.com">Vercel</a>. The source is on{' '}
+      Website made with React, Next.js and stylus. Build on{' '}
+      <a href="https://dfinity.org/">IC</a>. The source is on{' '}
       <a
         href="https://github.com/wesbos/syntax"
         target="_blank"

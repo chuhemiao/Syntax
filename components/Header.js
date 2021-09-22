@@ -6,80 +6,108 @@ const Header = () => (
     <div className="header__left">
       <Link href="/">
         <a aria-label="Syntax.FM">
-          <img className="header__logo" src="/static/logo.png" alt="Syntax" />
+          <img className="header__logo" src="/static/logo.jpg" alt="Syntax" />
         </a>
       </Link>
     </div>
     <div className="header__right">
       <div className="title">
-        <h2 className="tagline">A Tasty Treats Podcast for Web Developers.</h2>
+        <h2 className="tagline">一个IC爱好者定投群发起的播客节目.</h2>
         <a
           target="_blank"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfQlAo1wXHiJMySdU-h8QMtfoz92aMS9eycEHXB6eRCLh8KHA/viewform"
+          href="mailto:chuhemiao@gmail.com"
           className="title__potluck-btn"
           rel="noopener noreferrer"
         >
-          Ask a Potluck Question →
+          Ask a KK德米安 Question →
         </a>
       </div>
       <div className="people">
         <div className="person">
           <img
-            src="https://avatars.githubusercontent.com/wesbos?size=200"
+            src="/static/kk.png"
             alt="Wes Bos"
             className="avatar"
           />
-          <h3>Wes Bos</h3>
+          <h3>KK德米安</h3>
           <a
             target="_blank"
-            href="https://twitter.com/wesbos"
+            href="https://twitter.com/delokkkk"
             className="person__social person__social--twitter"
             rel="noopener noreferrer"
           >
-            @wesbos
+            @白总
           </a>
           <p>
-            Full Stack JavaScript Developer. Creator of really good{' '}
-            <a
-              target="_blank"
-              href="https://wesbos.com/courses"
-              rel="noopener noreferrer"
-            >
-              web development courses
-            </a>
-            . BBQ enthusiast.
+            菜菜的程序员,懂一点Javascript、Go、Rust、Motoko...
           </p>
         </div>
 
         <div className="person">
           <img
-            src="https://avatars.githubusercontent.com/stolinski?size=200"
+            src="/static/mei.png"
             alt="Scott Tolinski"
             className="avatar"
             rel="noopener noreferrer"
           />
-          <h3>Scott Tolinski</h3>
+          <h3>Lionel Messi</h3>
           <a
             target="_blank"
-            href="https://twitter.com/stolinski"
+            href="https://twitter.com/delokkkk"
             className="person__social person__social--twitter"
             rel="noopener noreferrer"
           >
-            @stolinski
+            @梅总
           </a>
           <p>
-            Web Developer, Creator of{' '}
-            <a href="https://leveluptutorials.com/">Level Up Tuts</a>, Bboy,
-            Robotops Crew and{' '}
-            <a
-              target="_blank"
-              href="https://www.youtube.com/c/leveluptuts"
-              rel="noopener noreferrer"
-            >
-              Youtuber
-            </a>
+            ICP Holder，格局大，大局观很厉害的大佬。
           </p>
         </div>
+
+        <div className="person">
+          <img
+            src="/static/qiong.png"
+            alt="Scott Tolinski"
+            className="avatar"
+            rel="noopener noreferrer"
+          />
+          <h3>Sofia</h3>
+          <a
+            target="_blank"
+            href="https://twitter.com/delokkkk"
+            className="person__social person__social--twitter"
+            rel="noopener noreferrer"
+          >
+            @币圈首穷
+          </a>
+          <p>
+            做空ICP财务自由的男人
+          </p>
+        </div>
+
+
+        <div className="person">
+          <img
+            src="/static/icp-logo.png"
+            alt="Scott Tolinski"
+            className="avatar"
+            rel="noopener noreferrer"
+          />
+          <h3>深度套牢的群友</h3>
+          <a
+            target="_blank"
+            href="https://twitter.com/delokkkk"
+            className="person__social person__social--twitter"
+            rel="noopener noreferrer"
+          >
+            @波波波 @初一 @YSYMS @简单就好 @V神不太神
+          </a>
+          <p>
+            他们来自ICP定投翻身群深度套牢的一群人...
+          </p>
+        </div>
+
+
       </div>
     </div>
     <Subscribe />

@@ -7,7 +7,7 @@ class SyntaxDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          {/* <meta name="viewport" content="width=device-width, initial-scale=1" /> */}
           <meta name="description" content={description} />
           <meta name="theme-color" content="#F1C15D" />
           <meta charSet="utf-8" />
@@ -18,7 +18,7 @@ class SyntaxDocument extends Document {
           />
           <link
             rel="shortcut icon"
-            href="https://syntax.fm/static/favicon.png"
+            href="https://syntax.fm/static/logo.jpg"
           />
           <style
             // eslint-disable-next-line react/no-danger

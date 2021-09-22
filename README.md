@@ -1,12 +1,13 @@
-# Syntax.
+# ICPodcast
 
-A tasty treats podcast for Web Developers.
+一个建设在 IC 上的 DAO 播客，我们不局限于话题和嘉宾，每一期都在聊一个兴趣，用兴趣驱动成就。
 
-This is the site that runs [Syntax.fm](https://syntax.fm) — go there to listen to it!
+This is the site that runs [icpodcast.org](https://icpodcast.org) — go there to listen to it!
 
 This site is built on React and Next.js
 
 ## Requirements
+
 - Node 8.1.2 or higher
 
 ## Development

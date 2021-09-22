@@ -7,27 +7,27 @@ const Meta = ({ show, staticPage }) => (
     {show ? (
       <>
         <title>
-          {show.title} — Syntax Podcast {show.displayNumber}
+          {show.title} — ICPodcast Dfinity Motoko {show.displayNumber}
         </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
         <meta property="og:audio" content={show.url} />
         <meta property="og:audio:secure_url" content={show.url} />
         <meta property="og:audio:type" content="audio/mp3" />
         <meta property="og:type" content="music.song" />
         <meta
           property="og:title"
-          content={`${show.title} — Syntax Podcast ${show.displayNumber}`}
+          content={`${show.title} — ICPodcast  ${show.displayNumber}`}
         />
         <meta
           property="og:url"
-          content={`https://syntax.fm/show/${show.displayNumber}/${slug(
+          content={`https://icpodcast.org/show/${show.displayNumber}/${slug(
             show.title
           )}`}
         />
       </>
     ) : (
       <title>
-        {staticPage && staticPage.title && `${staticPage.title} – `}Syntax
-        Podcast
+        {staticPage && staticPage.title && `${staticPage.title} – `}ICPodcast
       </title>
     )}
   </Head>

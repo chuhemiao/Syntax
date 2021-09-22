@@ -1,12 +1,12 @@
 {
-  "name": "Syntax",
-  "description": "Full Stack Developers Wes Bos and Scott Tolinski dive deep into web development topics, explaining how they work and talking about their own experiences. They cover from JavaScript frameworks like React, to the latest advancements in CSS to simplifying web tooling.",
+  "name": "ICPodcast",
+  "description": "A podcast built on IC, a weekly topic to find a different world.",
   "engines": {
     "node": ">=8.1.2"
   },
   "scripts": {
     "dev": "next dev --port 6969",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "deploy": "now",
     "alias": "now alias",
@@ -15,8 +15,8 @@
   },
   "now": {
     "alias": [
-      "syntax",
-      "syntax.fm"
+      "ICPodcast",
+      "ICPodcast.fm"
     ]
   },
   "dependencies": {
