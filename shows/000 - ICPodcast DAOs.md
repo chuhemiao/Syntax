@@ -47,4 +47,4 @@ KK 德米安,菜鸡程序员
 
 加助理微信:zpodcasts,备注 3500.
 
-Telegram：不定期开放，入微信群后申请.
+Telegram：<https://t.me/icHolder>

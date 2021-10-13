@@ -5,7 +5,10 @@
         },
         "Syntax": {
             "dependencies": ["hello"],
-            "source": ["out"],
+            "frontend": {
+                "entrypoint": "out/show/latest/latest.html"
+              },
+            "source": ["out/"],
             "type": "assets"
         }
     },

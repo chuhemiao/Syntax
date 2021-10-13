@@ -13,11 +13,11 @@ export default function SponsorPage() {
         </p>
 
         <p>
-          加微信群：zpodcasts，备注暗号（3500）
+          加微信群：解散了，还是加Telegram吧
         </p>
 
         <p>
-          Telegram：不定期开放
+          Telegram：https://t.me/icHolder
         </p>
 
         <h2>Contact Us</h2>
