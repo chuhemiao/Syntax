@@ -11,7 +11,8 @@
     "deploy": "now",
     "alias": "now alias",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "export": "next export"
   },
   "now": {
     "alias": [
