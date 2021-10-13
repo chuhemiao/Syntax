@@ -14,11 +14,11 @@ class SyntaxDocument extends Document {
           <meta property="og:description" content={description} />
           <meta
             property="og:image"
-            content="https://syntax.fm/static/syntax-banner.png"
+            content="https://www.icpodcast.org/static/icp-logo.png"
           />
           <link
             rel="shortcut icon"
-            href="https://syntax.fm/static/logo.jpg"
+            href="https://www.icpodcast.org/static/logo.jpg"
           />
           <style
             // eslint-disable-next-line react/no-danger
