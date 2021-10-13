@@ -2,7 +2,7 @@
 number: 1
 title: ICP is being dragged back by the big players and ecology, how can the monopoly market pull the disk to break the game?
 date: 1634137052000
-url: http://icpodcast.org/media/exchange-icp.mp3
+url: https://icpodcast.org/media/211013/exchange-icp.mp3
 ---
 
 ## Show Notes

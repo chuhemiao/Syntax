@@ -2,7 +2,7 @@
 number: 0
 title: What are DAOs, DAOs, DAOn, and will the future of DAOs change the organization
 date: 1632292607000
-url: http://icpodcast.org/media/daos-daon.mp3
+url: https://icpodcast.org/media/daos-daon.mp3
 ---
 
 ## Show Notes
