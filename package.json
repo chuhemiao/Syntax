@@ -6,13 +6,12 @@
   },
   "scripts": {
     "dev": "next dev --port 6969",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "deploy": "now",
     "alias": "now alias",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "export": "next export"
+    "lint:fix": "eslint . --fix"
   },
   "now": {
     "alias": [
