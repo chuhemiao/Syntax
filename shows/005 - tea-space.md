@@ -2,7 +2,11 @@
 number: 5
 title: Interpreting Blockchain and Bitcoin from Financial Trends, the Pattern Opens
 date: 1659102988000
+<<<<<<< HEAD
 url: https://storageapi.fleek.co/nnsdaos-team-bucket/space/tea-space.mp3
+=======
+url: https://icpodcast.org/media/202208/tea-space.mp3
+>>>>>>> 7eb76bf8c7f67927730ac722824024161a9f16db
 ---
 
 ## Show Notes
